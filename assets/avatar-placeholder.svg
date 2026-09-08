@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+  <defs>
+    <linearGradient id="avatarGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5" />
+      <stop offset="50%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+  </defs>
+  <!-- Background Circle with modern glow -->
+  <circle cx="100" cy="100" r="96" fill="url(#avatarGradient)" />
+  <circle cx="100" cy="100" r="92" fill="none" stroke="rgba(255, 255, 255, 0.25)" stroke-width="3" />
+  
+  <!-- Stylized Avatar Character -->
+  <g transform="translate(100, 105)">
+    <!-- Shoulders / Clothes -->
+    <path d="M-60 75 C-60 40, -35 25, 0 25 C35 25, 60 40, 60 75 Z" fill="#ffffff" opacity="0.95" />
+    <!-- Collar Detail -->
+    <path d="M-20 27 L0 45 L20 27 Z" fill="#3b82f6" opacity="0.8" />
+    <!-- Neck -->
+    <rect x="-12" y="8" width="24" height="20" rx="4" fill="#fed7aa" />
+    <!-- Head -->
+    <ellipse cx="0" cy="-6" rx="30" ry="34" fill="#ffedd5" />
+    <!-- Hair -->
+    <path d="M-30 -12 C-32 -38, -10 -45, 0 -45 C15 -45, 33 -36, 30 -12 C25 -26, 12 -34, -4 -32 C-18 -30, -25 -22, -30 -12 Z" fill="#1e293b" />
+    <!-- Glasses -->
+    <rect x="-24" y="-12" width="18" height="13" rx="4" fill="none" stroke="#1e293b" stroke-width="2.5" />
+    <rect x="6" y="-12" width="18" height="13" rx="4" fill="none" stroke="#1e293b" stroke-width="2.5" />
+    <line x1="-6" y1="-6" x2="6" y2="-6" stroke="#1e293b" stroke-width="2.5" />
+    <!-- Smile -->
+    <path d="M-10 12 Q0 18 10 12" fill="none" stroke="#ea580c" stroke-width="2" stroke-linecap="round" />
+  </g>
+</svg>
